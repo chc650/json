@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Overpass+Mono&display=swap');
+
+
+/* *{
+    border: solid 1px;
+} */
+
+body {
+display: flex;
+  font-family: 'Overpass Mono', monospace, sans-serif;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+  width: 100vmax;
+  height: 100vmin;
+  background-color: darkslategrey;
+  flex-direction: column-reverse;
+
+
+}
+#container{
+    display: flex;
+
+}
+
+.imgscale{
+    display: flex;
+    justify-content: center;
+    
+    
+    /* background-color: teal; */
+    padding: 0%;
+  
+    
+    
+}
+.imgscale h1{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    font-size: 15rem;
+    width: 50%;
+    padding-bottom: -250% ;
+    height: 50%;
+
+    
+
+}
+
+h3{
+    display: flex;
+    font-size: 2rem;
+    justify-content: center;
+
+}
+.res{
+    box-shadow: 0px 0px 15px 10px rgba(0,0,0,0.62);
+
+    background-color: whitesmoke;
+   
+    width: 450px;
+    padding: 10px;
+    margin: 10px
+    
+  }
+  .res img{
+    width: 100%;
+  }
+  /* .starlist{
+    list-style: none;
+    padding: 0;
+  }
+  
+  .starlist li{
+      
+    display: inline-block;
+  } */
+
+
+  .foodList{
+      list-style: none;
+      padding: 0;
+    }
+    
+    .foodList ul{
+    position: fixed;
+    list-style-type: none;
+
+  }
+  .foodList li{
+      display: flex;
+      justify-content: space-around;
+      /* background-color: teal; */
+  }
+  
